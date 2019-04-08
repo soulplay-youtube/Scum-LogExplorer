@@ -5,7 +5,6 @@
 #include <fstream>
 #include <logparser.h>
 #include <prisoner.h>
-#include <QDebug>
 #include <settings.h>
 #include <outfile.h>
 #include <drawmap.h>
