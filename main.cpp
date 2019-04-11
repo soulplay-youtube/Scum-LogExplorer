@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
         Outfile outf(prisoners,sectors,parser,settings.getSandbox(),settings.getEvents(),settings.getAllStats());
         if (settings.getSteamID())
         {
-            wcout << L"Идем обработка данных с steamcommunity.com ........" << endl;
+            wcout << L"Идет обработка данных с steamcommunity.com ........" << endl;
             parser.steamParser();
             outf.setSteamName(settings.getSteamID());
         }
