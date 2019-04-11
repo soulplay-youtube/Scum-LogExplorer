@@ -43,6 +43,7 @@ int main(int argc, char *argv[])
         outf.printToFile();
     }
 
+    // отрисовка карты
     if (settings.getMap() || settings.getEvents())
         DrawMap drawmap(prisoners,settings.getMap(),settings.getEvents(),settings.getMapEvent(),settings.getMarkEvent());
 
